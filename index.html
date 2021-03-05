@@ -4,35 +4,38 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./css/styles.css"/>
     <title>WebStudio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css">
+    <link rel="stylesheet" href="./css/index.css"/>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
 </head>
 <body>
     <!---Хедер-->
     <header>
         <!---навигация-->
-        <nav>
-            <a class="logo" href="./hw.html"><span class="word">WebStudio</span></a>
-            <ul class="list">
-                <li class="item">
-                    <a class="link" href="./hw.html"><span class="word">Студия</span></a>
+        <nav class="nav">
+            <a class="logo" href="./index.html"><span>Web</span><span class="word">Studio</span></a>
+            <ul class="nav-list list">
+                <li class="nav-item">
+                    <a class="nav-link current" href="./index.html"><span>Студия</span></a>
                 </li>
-                <li class="item">
-                    <a class="link" href="./html/portfolio.html"><span class="word">Портфолио</span></a>
+                <li class="nav-item">
+                    <a class="nav-link" href="./html/portfolio.html"><span>Портфолио</span></a>
                 </li>
-                <li class="item">
-                    <a class="link" href="#"><span class="word">Контакты</span></a>
+                <li class="nav-item">
+                    <a class="nav-link" href="#"><span>Контакты</span></a>
                 </li>
             </ul>
         </nav>
         <!---Адрес-->
         <address>
-            <ul class="list">
-                <li class="item">
-                    <a class="phone" href="mailto:info@devstudio.com"><span class="word">info@devstudio.com</span></a>
+            <ul class="address-list list">
+                <li class="address-item">
+                    <a class="address-phone" href="mailto:info@devstudio.com"><span class="word">info@devstudio.com</span></a>
                 </li>
-                <li class="item">
-                    <a class="phone" href="tel:+380961111111"><span class="word">+38 096 111 11 11</span></a>
+                <li class="address-item">
+                    <a class="address-phone" href="tel:+380961111111"><span class="word">+38 096 111 11 11</span></a>
                 </li>
             </ul>
         </address>
@@ -43,35 +46,35 @@
         <div class="hero" > 
             <!---Секция-1-->
             <section class="section">
-                <h1 class="heading">Эффективные решения для вашего бизнеса</h1>
+                <h1 class="section-title heading">Эффективные решения для вашего бизнеса</h1>
                 <button class="button" type="button">Заказать услугу</button>
             </section>
         </div> 
         <!---Секция-2-->
         <section class="section">
             <!-- <h2>Скрытый заголовок</h2>-->
-            <ul class="list">
+            <ul class="feature-list list">
                 <li class="item">
-                    <h3 class="heading">Внимание к деталям</h3>
+                    <h3 class="title">Внимание к деталям</h3>
                     <p class="text">Идейные соображения, а также начало<br> повседневной работы по формированию <br> позиции.</p>
                 </li>
                 <li class="item">
-                    <h3 class="heading">Пунктуальность</h3>
+                    <h3 class="title">Пунктуальность</h3>
                     <p class="text">Задача организации, в особенности <br> же рамки и место обучения кадров <br> влечет за собой.</p>
                 </li>
                 <li class="item">
-                    <h3 class="heading">Планирование</h3>
+                    <h3 class="title">Планирование</h3>
                     <p class="text">Равным образом консультация с <br> широким активом в значительной <br> степени обуславливает.</p>
                 </li>
                 <li class="item">
-                    <h3 class="heading">Современные технологии</h3>
+                    <h3 class="title">Современные технологии</h3>
                     <p class="text">Значимость этих проблем настолько <br> очевидна, что реализация плановых <br> заданий.</p>
                 </li>
             </ul>
         </section>
         <!---Секция-3-->
         <section class="section">
-            <h2 class="heading">Чем мы занимаемся</h2> 
+            <h2 class="section-title">Чем мы занимаемся</h2> 
             <ul class="list">
                 <li class="item">
                     <img class="img" src="./img/index/1.jpg" alt="Робота над кодом" width="370">
@@ -86,33 +89,33 @@
         </section>
         <!---Секция-4-->
         <section class="section">
-            <h2 class="heading">Наша команда</h2>
+            <h2 class="section-title">Наша команда</h2>
             <div class="set-page">
                 <div class="page">
                     <article class="item">
                         <img class="img" src="./img/index/Игорь.jpg" alt="Игорь Демьяненко" width="254">
-                        <h3 class="heading">Игорь Демьяненко</h3>
+                        <h3 class="section-title">Игорь Демьяненко</h3>
                         <p class="text">Product Designer</p>
                     </article>
                 </div>
                 <div>
                     <article>
                         <img class="img" src="./img/index/Ольга.jpg" alt="Ольга Репина" width="254">
-                        <h3 class="heading">Ольга Репина</h3>
+                        <h3 class="section-title">Ольга Репина</h3>
                         <p class="text">Frontend Developer</p>
                     </article>
                 </div>
                 <div>
                     <article>
                         <img class="img" src="./img/index/Николай.jpg" alt="Николай Тарасов" width="254">
-                        <h3 class="heading">Николай Тарасов</h3>
+                        <h3 class="section-title">Николай Тарасов</h3>
                         <p class="text">Marketing</p>
                     </article>
                 </div>
                 <div>
                     <article>
                         <img class="img" src="./img/index/Михаил.jpg" alt="Михаил Ермаков" width="254">
-                        <h3 class="heading">Михаил Ермаков</h3>
+                        <h3 class="section-title">Михаил Ермаков</h3>
                         <p class="text">UI Designer</p>
                     </article>
                 </div>
@@ -121,7 +124,7 @@
     </main>
     <!---Футер-->
     <footer>
-        <a class="link" href="./hw.html"><span class="word">WebStudio</span></a>
+        <a class="link" href="./index.html"><span class="word">WebStudio</span></a>
         <address>
             <ul class="list">
                 <li class="item">

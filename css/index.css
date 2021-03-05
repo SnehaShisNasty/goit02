@@ -1,0 +1,48 @@
+:root {
+  --primary-text-color: #757575;
+  --title-text-color: #212121;
+  --accent-color: #2196f3;
+  --bg-color: #2f303a;
+}
+body {
+  background-color: #e5e5e5;
+  color: var(--primary-text-color);
+}
+.logo {
+  color: var(--accent-color);
+}
+.nav .word {
+  color: var(--title-text-color);
+}
+.list {
+  list-style: none;
+}
+.nav-list .nav-link {
+  color: var(--title-text-color);
+}
+.nav-list .nav-link:hover,
+.nav-list .nav-link:focus {
+  color: var(--accent-color);
+}
+.current {
+  color: var(--accent-color);
+}
+.address-list .address-phone {
+  color: var(--primary-text-color);
+}
+.address-list .address-phone:hover,
+.address-list .address-phone:focus {
+  color: var(--accent-color);
+}
+.hero {
+  background-color: var(--bg-color);
+}
+.section-title {
+  color: var(--title-text-color);
+}
+.section > .heading {
+  color: #ffffff;
+}
+.feature-list .title {
+  color: var(--title-text-color);
+}
