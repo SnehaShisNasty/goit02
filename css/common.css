@@ -34,15 +34,3 @@ body {
 .address-list .address-phone:focus {
   color: var(--accent-color);
 }
-.hero {
-  background-color: var(--bg-color);
-}
-.section-title {
-  color: var(--title-text-color);
-}
-.section > .heading {
-  color: #ffffff;
-}
-.feature-list .title {
-  color: var(--title-text-color);
-}

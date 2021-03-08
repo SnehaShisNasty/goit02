@@ -1,0 +1,12 @@
+.hero {
+  background-color: var(--bg-color);
+}
+.section-title {
+  color: var(--title-text-color);
+}
+.section > .heading {
+  color: #ffffff;
+}
+.feature-list .title {
+  color: var(--title-text-color);
+}
