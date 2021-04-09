@@ -1,12 +1,61 @@
-.hero {
+.hero + .section {
   background-color: var(--bg-color);
 }
 .section-title {
   color: var(--title-text-color);
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+  letter-spacing: 1.7px;
 }
 .section > .heading {
   color: #ffffff;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 60px;
+  letter-spacing: 1.36px;
+  text-align: center;
+  text-transform: uppercase;
 }
-.feature-list .title {
+.heading + .button {
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 30px;
+  letter-spacing: 1.87;
+  background: #2196f3;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  border: none;
+  padding: 10px 32px;
+}
+.feature-item > .feature-title {
   color: var(--title-text-color);
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 1.14px;
+  text-transform: uppercase;
+}
+.feature-item > .feature-text {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 1.7px;
+}
+.card-heading {
+  color: var(--title-text-color);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: 1.18px;
+  text-align: center;
+}
+.card-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: 1.18px;
+  text-align: center;
 }

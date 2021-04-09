@@ -7,6 +7,7 @@
 body {
   background-color: #e5e5e5;
   color: var(--primary-text-color);
+  font-family: Roboto, sans-serif;
 }
 .logo {
   color: var(--accent-color);
@@ -14,26 +15,67 @@ body {
   font-weight: 700;
   font-size: 26px;
 }
-.nav .word {
+.logo > .word {
   color: var(--title-text-color);
+}
+.current {
+  color: var(--accent-color) !important;
+}
+a {
+  text-decoration: none;
 }
 .list {
   list-style: none;
 }
+
 .nav-list .nav-link {
   color: var(--title-text-color);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 1.14px;
 }
 .nav-list .nav-link:hover,
 .nav-list .nav-link:focus {
   color: var(--accent-color);
 }
-.current {
-  color: var(--accent-color);
-}
+
 .address-list .address-phone {
   color: var(--primary-text-color);
 }
 .address-list .address-phone:hover,
 .address-list .address-phone:focus {
   color: var(--accent-color);
+}
+.visually-hidden {
+  position: absolute !important;
+  clip: rect(1px 1px 1px 1px);
+  clip: rect(1px, 1px, 1px, 1px);
+  padding: 0 !important;
+  border: 0 !important;
+  height: 1px !important;
+  width: 1px !important;
+  overflow: hidden;
+}
+footer {
+  background-color: var(--bg-color);
+}
+footer > .logo > .word {
+  color: #ffffff;
+}
+.addres {
+  font-style: normal;
+}
+.addres-text {
+  color: #ffffff;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 1.7px;
+}
+.addres-phone {
+  color: rgba(255, 255, 255, 0.6);
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 1.7px;
 }
