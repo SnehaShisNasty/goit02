@@ -18,7 +18,7 @@
   text-align: center;
   text-transform: uppercase;
 }
-.heading + .button {
+.button-hero {
   color: #ffffff;
   font-weight: 700;
   font-size: 16px;

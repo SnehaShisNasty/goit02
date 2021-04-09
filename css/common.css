@@ -63,7 +63,7 @@ footer {
 footer > .logo > .word {
   color: #ffffff;
 }
-.addres {
+address {
   font-style: normal;
 }
 .addres-text {
@@ -78,4 +78,7 @@ footer > .logo > .word {
   font-size: 14px;
   line-height: 24px;
   letter-spacing: 1.7px;
+}
+/*Портфолио*/
+.block-button {
 }
