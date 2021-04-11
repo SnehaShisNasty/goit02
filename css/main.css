@@ -5,16 +5,15 @@
   color: var(--title-text-color);
   font-weight: 700;
   font-size: 36px;
-  line-height: 42px;
+  line-height: 1.7;
   text-align: center;
-  letter-spacing: 1.7px;
 }
 .section > .heading {
   color: #ffffff;
   font-weight: 900;
   font-size: 44px;
-  line-height: 60px;
-  letter-spacing: 1.36px;
+  line-height: 1.36px;
+  letter-spacing: 0.06em;
   text-align: center;
   text-transform: uppercase;
 }
@@ -22,8 +21,8 @@
   color: #ffffff;
   font-weight: 700;
   font-size: 16px;
-  line-height: 30px;
-  letter-spacing: 1.87;
+  line-height: 1.87;
+  letter-spacing: 0.06em;
   background: #2196f3;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
@@ -35,29 +34,25 @@
   color: var(--title-text-color);
   font-weight: 700;
   font-size: 14px;
-  line-height: 16px;
-  letter-spacing: 1.14px;
+  line-height: 1.14;
   text-transform: uppercase;
 }
 .feature-item > .feature-text {
   font-weight: 400;
   font-size: 14px;
-  line-height: 24px;
-  letter-spacing: 1.7px;
+  line-height: 1.7;
 }
 .card-heading {
   color: var(--title-text-color);
   font-weight: 500;
   font-size: 16px;
-  line-height: 19px;
-  letter-spacing: 1.18px;
+  line-height: 1.18;
   text-align: center;
 }
 .card-text {
   font-weight: 400;
   font-size: 16px;
-  line-height: 19px;
-  letter-spacing: 1.18px;
+  line-height: 1.18;
   text-align: center;
 }
 /*Портфолио*/
@@ -65,9 +60,8 @@
   color: var(--title-text-color);
   font-weight: 500;
   font-size: 16px;
-  line-height: 26px;
+  line-height: 1.62;
   text-align: center;
-  letter-spacing: 1.62px;
   background-color: #f5f4fa;
   cursor: pointer;
   border-radius: 4px;
@@ -78,18 +72,16 @@
 .block-button:focus {
   color: #ffffff;
   background-color: var(--accent-color);
-  cursor: pointer;
 }
 .card-content > .heading {
   color: var(--title-text-color);
   font-weight: 700;
   font-size: 18px;
-  line-height: 36px;
-  letter-spacing: 2px;
+  line-height: 2;
+  letter-spacing: 0.06em;
 }
 .card-content > .text {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.87;
-  letter-spacing: 0.03em;
 }
